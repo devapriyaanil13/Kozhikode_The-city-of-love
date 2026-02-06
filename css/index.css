@@ -1,17 +1,27 @@
 
 body{
-    background-color: #8FA3B8;
+    background-color: #f9e6c7;
     font-family: "EB Garamond", serif;
 }
-.container-fluid{
-    background-image:url(Images/aswin-p-s-9_XgDC7wPyQ-unsplash.jpg);
-    height:500px;
+.header{
+    height: 500px;;
     width:1370px;
     border-radius:10px 10px 10px 10px ;
-    margin-top:10px;
+    margin-top:5px;
     display: flex;
     flex-direction: column;
-    
+    position: relative;
+    overflow: hidden;
+}
+.bg-video{
+    position:absolute;
+    top:50%;
+    left:50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%,-50%);
+    object-fit:cover;
+    z-index:-1;
 }
 .tex {
     flex:1;
@@ -25,20 +35,21 @@ body{
 }
 .image h1{
     font-size:80px;
-    color: #F5F7FA;
+    color: #EAE4DA    ;
 }
 .header a{
-    color:#D1D5DB;
+    color:#3A3F3C;
     font-size: 18px;
 }
 .nav {
     justify-content: end;
-    background-color: rgba(46,58,71,0.2);
     border-radius:10px 10px 10px 10px ;
+    width:100%;
+    
 }
 
 .header a:hover{
-    color:#E6EDF3;
+    color:#C98B4B ;
     font-size: 18px;
     border:2px;
     border-color: black;
@@ -55,4 +66,7 @@ body{
 .paraimg{
     margin-top:10px;
     margin-bottom:20px;
+}
+.footer{
+    margin-top:10px;
 }
