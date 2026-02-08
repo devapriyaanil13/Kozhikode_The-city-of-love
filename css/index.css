@@ -1,11 +1,12 @@
 
 body{
-    background-color: #f9e6c7;
+    background-color:white;
     font-family: "EB Garamond", serif;
 }
 .header{
     height: 500px;;
-    width:1370px;
+    width:100%;
+    max-width:1370px;
     border-radius:10px 10px 10px 10px ;
     margin-top:5px;
     display: flex;
@@ -34,11 +35,11 @@ body{
     line-height:500px;
 }
 .image h1{
-    font-size:80px;
+    font-size: clamp(26px, 5vw, 60px);;
     color: #EAE4DA    ;
 }
 .header a{
-    color:#3A3F3C;
+    color:white;
     font-size: 18px;
 }
 .nav {
@@ -49,7 +50,7 @@ body{
 }
 
 .header a:hover{
-    color:#C98B4B ;
+    color:black ;
     font-size: 18px;
     border:2px;
     border-color: black;
@@ -67,6 +68,26 @@ body{
     margin-top:10px;
     margin-bottom:20px;
 }
+.card{
+    background-color: #F5EBD6;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    border-radius: 10px 10px 10px 10px;
+    color: #1E2A38;
+    border-color: none;
+}
 .footer{
     margin-top:10px;
+    background-color: white;
+}
+.card .btn{
+    background-color: #C7AE7C;
+    color: #2F261A;
+}
+.card .btn:hover{
+    background-color:#B89E6D;
+    color: #2F261A
+}
+                   
+.mb-12 i{
+    color: #F5EBD6;
 }
