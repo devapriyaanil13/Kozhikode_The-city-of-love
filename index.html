@@ -4,165 +4,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Kozhikode</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Irish+Grover&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="Javascript/index.js"></script>
 </head>
-
 <body>
     <div id="container">
         <div class="container-fluid">
             <div class="header">
-                <div class="head">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link " href="Places.html">Places</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Food.html">Food</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Shopping.html">Shopping</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Culture.html">Culture</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="Contact.html">Contact</a>
-                        </li>
+                <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+                    <div class="container-fluid">
 
-                    </ul>
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mainNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                </div>
+                        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-place" href="Places.html">Places</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " id="nav-Food" href="Food.html">Food</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-shopping" href="Shopping.html">Shopping</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-culture" href="Culture.html">Culture</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav-contact" href="Contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+
                 <video autoplay muted loop playsinline class="bg-video">
                     <source src="Images/mixkit-sunset-from-a-peaceful-beach-44496-full-hd.mp4" type="video/mp4">
                 </video>
+
                 <div class="tex">
                     <div class="image">
-                        <h1>KOZHIKODE:THE CITY OF LOVE</h1>
+                        <h1>KOZHIKODE: THE CITY OF LOVE</h1>
                     </div>
                 </div>
+
             </div>
-        </div>
-        <div class="container">
-            <div class="paraimg">
-                <div class="why">
-                    <p>Why KOZHIKODE?</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-8">
-                        <p>Kozhikode is not a city that demands your attention the moment you arrive; instead, it gently
-                            earns a place in your heart. It welcomes you with the quiet confidence of a place that knows
-                            who it is. Here, the sea is not just a view but a companion, listening to thoughts you never
-                            knew you needed to share. Life flows at a pace that feels natural — unhurried mornings
-                            filled with the aroma of tea and spices, afternoons softened by shade and conversation, and
-                            evenings where people gather at the beach to watch the sun disappear together. Kozhikode’s
-                            true beauty lies in its people, whose kindness is effortless and unannounced, whose smiles
-                            make strangers feel familiar. Cultures blend seamlessly, histories breathe through everyday
-                            life, and food carries comfort more than extravagance. This city doesn’t offer grand
-                            promises; it offers belonging. You don’t simply explore Kozhikode — you experience it, carry
-                            it with you, and quietly return to it, again and again, in memory and in heart. In
-                            Kozhikode, even silence feels welcoming. Every street holds a story waiting to be heard. And
-                            once you feel this city, a part of you never truly leaves. It teaches you to slow down
-                            without asking. It stays with you like a feeling you don’t want to forget.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="Images/Calicut beach.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="card col-md-3 ">
-                    <img src="images/place.jpg" class="card-img-top mt-1" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Places</h5>
-                        <p class="card-text">Places in Kozhikode make you slow down and feel peacefully present.
-                            They stay with you long after you have already left.
-                        </p>
-                        <a href="#" class="btn ">Take me there</a>
-                    </div>
-                </div>
-                <div class="card col-md-3">
-                    <img src="images/culture.jpg" class="card-img-top mt-1" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Culture</h5>
-                        <p class="card-text">Culture here is lived daily through respect care and shared values.
-                            People connect naturally without force pride or loud expressions.</p>
-                        <a href="#" class="btn ">Experience It</a>
-                    </div>
-                </div>
-                <div class="card col-md-3">
-                    <img src="images/food.jpg" class="card-img-top mt-1" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Food</h5>
-                        <p class="card-text">Shopping feels personal as shopkeepers talk smile and remember you.
-                            It feels more like conversations than buying things quickly.</p>
-                        <a href="#" class="btn ">Eat like locals</a>
-                    </div>
-                </div>
-                <div class="card col-md-3">
-                    <img src="images/Shopping.jpg" class="card-img-top mt-1" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Shopping</h5>
-                        <p class="card-text">Food tastes like care comfort and memories cooked with patience.
-                            You eat slowly because it feels familiar and safe.</p>
-                        <a href="#" class="btn ">Retail therapy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <section class="footer">
-                <footer class="text-center text-white " style="background-color:rgba(47, 38, 26, 0.8);">
-                    <div class="container p-4 pb-0">
-                        <section class="">
-                            <p class="d-flex justify-content-center align-items-center">
-                                <span class="me-3">Lost your way</span>
-                                <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded">
-                                    Ping us !!
-                                </button>
-                            </p>
-                        </section>
-                    </div>
-
-                    <div class="mb-12">
-
-                        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
-                            role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f "></i></a>
-
-                        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
-                            role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
-
-
-                        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
-                            role="button" data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
-
-
-                        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
-                            role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-
-                    </div>
-
-                    <div class="text-center p-3" style="background-color: rgba(47, 38, 26, 0.9);">
-                        <h6>A simple guide, for a city that feels like home <i class="fa-solid fa-heart"></i>
-                        </h6>
-
-                    </div>
-
-                </footer>
-            </section>
         </div>
     </div>
 
-</body>
 
+
+
+    <div class="container">
+        <div class="paraimg">
+            <div class="why">
+                <p>Why KOZHIKODE?</p>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Kozhikode is not a city that demands your attention the moment you arrive; instead, it gently
+                        earns a place in your heart. It welcomes you with the quiet confidence of a place that knows
+                        who it is. Here, the sea is not just a view but a companion, listening to thoughts you never
+                        knew you needed to share. Life flows at a pace that feels natural — unhurried mornings
+                        filled with the aroma of tea and spices, afternoons softened by shade and conversation, and
+                        evenings where people gather at the beach to watch the sun disappear together. Kozhikode’s
+                        true beauty lies in its people, whose kindness is effortless and unannounced, whose smiles
+                        make strangers feel familiar. Cultures blend seamlessly, histories breathe through everyday
+                        life, and food carries comfort more than extravagance. This city doesn’t offer grand
+                        promises; it offers belonging. You don’t simply explore Kozhikode — you experience it, carry
+                        it with you, and quietly return to it, again and again, in memory and in heart. In
+                        Kozhikode, even silence feels welcoming. Every street holds a story waiting to be heard. And
+                        once you feel this city, a part of you never truly leaves. It teaches you to slow down
+                        without asking. It stays with you like a feeling you don’t want to forget.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="Images/Calicut beach.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card col-md-3 ">
+                <img src="images/place.jpg" class="card-img-top mt-1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Places</h5>
+                    <p class="card-text">Places in Kozhikode make you slow down and feel peacefully present.
+                        They stay with you long after you have already left.
+                    </p>
+                    <a href="#" class="btn card-btn" data-nav="nav-place">Take me there</a>
+                </div>
+            </div>
+            
+            <div class="card col-md-3">
+                <img src="images/food.jpg" class="card-img-top mt-1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Food</h5>
+                    <p class="card-text">Shopping feels personal as shopkeepers talk smile and remember you.
+                        It feels more like conversations than buying things quickly.</p>
+                    <a href="#" class="btn card-btn" data-nav="nav-Food">Eat like locals</a>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="images/Shopping.jpg" class="card-img-top mt-1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Shopping</h5>
+                    <p class="card-text">Food tastes like care comfort and memories cooked with patience.
+                        You eat slowly because it feels familiar and safe.</p>
+                    <a href="#" class="btn card-btn" data-nav="nav-shopping">Retail therapy</a>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="images/culture.jpg" class="card-img-top mt-1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Culture</h5>
+                    <p class="card-text">Culture here is lived daily through respect care and shared values.
+                        People connect naturally without force pride or loud expressions.</p>
+                    <a href="#" class="btn card-btn" data-nav="nav-culture">Experience It</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container-fluid">
+        <section class="footer">
+            <footer class="text-center text-white " style="background-color:rgba(47, 38, 26, 0.8);">
+                <div class="container p-4 pb-0">
+                    <section class="">
+                        <p class="d-flex justify-content-center align-items-center">
+                            <span class="me-3">Lost your way</span>
+                            <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded">
+                                Ping us !!
+                            </button>
+                        </p>
+                    </section>
+                </div>
+
+                <div class="mb-12">
+
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f "></i></a>
+
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                </div>
+
+                <div class="text-center p-3" style="background-color: rgba(47, 38, 26, 0.9);">
+                    <h6>A simple guide, for a city that feels like home <i class="fa-solid fa-heart"></i>
+                    </h6>
+
+                </div>
+
+            </footer>
+        </section>
+    </div>
+    </div>
+
+</body>
 </html>

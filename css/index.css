@@ -77,7 +77,7 @@ body{
 }
 .footer{
     margin-top:10px;
-    background-color: white;
+
 }
 .card .btn{
     background-color: #C7AE7C;
@@ -91,3 +91,34 @@ body{
 .mb-12 i{
     color: #F5EBD6;
 }
+.navbar-nav .nav-link{
+    transition: all 0.25s ease;
+    border-radius: 8px;
+    padding: 6px 14px;
+}
+
+.navbar-nav .nav-link.hover-active{
+    background-color: rgba(199, 174, 124, 0.85);
+    color: #2F261A;
+    border: 2px solid #2F261A;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 98%;
+    z-index: 1000;
+    background: transparent;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.navbar.scrolled{
+    background-color: rgba(47, 38, 26, 0.9);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.navbar.scrolled .nav-link:hover{
+    background-color: rgba(199, 174, 124, 0.85);
+    color: #2F261A;
+    border: 2px solid #2F261A;
+}
+
