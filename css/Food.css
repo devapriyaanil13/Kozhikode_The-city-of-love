@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    font-family: "EB Garamond", serif;
+}
+.head{
+    background-image: url(Images/atikah-akhtar-DIdQP3HUMXQ-unsplash.jpg);
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+    width:100%;
+    max-width:1370px;
+    border-radius:10px 10px 10px 10px ;
+    margin-top:5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.tex {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-30px);
+}
+.image{
+    text-align:center;
+    line-height:500px;
+}
+.image h1{
+    font-size: clamp(28px, 5vw, 60px);;
+    color: #6B5E54; 
+}
+.navbar-nav a{
+    color:#6B5E54 ;
+    font-size: 20px;
+}
+.navbar-nav a:hover{
+    color: #B85C38 ;
+    font-size: 18px;
+    border:2px;
+    border-color: black;
+}

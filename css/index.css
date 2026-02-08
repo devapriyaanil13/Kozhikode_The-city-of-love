@@ -32,11 +32,10 @@ body{
 }
 .image{
     text-align:center;
-    line-height:500px;
+    line-height:300px;
 }
 .image h1{
     font-size: clamp(26px, 5vw, 60px);;
-    color: #EAE4DA    ;
 }
 .header a{
     color:white;
@@ -121,4 +120,5 @@ body{
     color: #2F261A;
     border: 2px solid #2F261A;
 }
+
 
