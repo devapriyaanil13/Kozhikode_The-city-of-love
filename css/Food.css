@@ -262,7 +262,7 @@ body{
     color: #2F261A;
     transform: translateY(0);
 }
-..navbar-toggler{
+.navbar-toggler{
     background-color: rgba(47, 38, 26, 0.85);
     border-radius: 10px;
     padding: 6px 10px;
