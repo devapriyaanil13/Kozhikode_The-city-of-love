@@ -3,13 +3,18 @@ body{
     font-family: "EB Garamond", serif;
 }
 .header{
-    background-image: url(Images/front-view-woman-with-shopping-bags-concept.jpg);
-    height: 500px;
-    border-radius: 10px 10px 10px 10px;
-    width:100%;
-    max-width:1370px;
-    border-radius:10px 10px 10px 10px ;
-    margin-top:5px;
+    background-image: url(images/front-view-woman-with-shopping-bags-concept.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    max-width: 1370px;
+    aspect-ratio: 16 / 9;
+
+    margin-top: 5px;
+    border-radius: 10px;
+
     display: flex;
     flex-direction: column;
     position: relative;
