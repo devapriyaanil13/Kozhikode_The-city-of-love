@@ -30,98 +30,6 @@ body{
     font-size: clamp(28px, 5vw, 60px);;
     color: #6B5E54; 
 }
-
-.where{
-  background: rgba(255,255,255,0.75);
-  backdrop-filter: blur(6px);
-  margin-top: -60px;
-  position: relative;
-  z-index: 2;
-  border-radius: 24px 24px 0 0;
-  padding: 40px 50px;
-}
-
-.where h2{
-    color: #6B5E54;
-    text-align: center;
-    font-size: 45px;
-}
-.where p{
-    font-size: 23px;
-}
-.food-categories{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 30px;
-    padding: 20px 0;
-    flex-wrap: wrap;  
-}
-
-.food-item{
-    text-align: center;
-    cursor: pointer;
-}
-
-.food-item img{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease;
-}
-
-.food-item img:hover{
-    transform: scale(1.08);
-}
-
-.food-item p{
-    margin-top: 12px;
-    font-size: 18px;
-    color: #222;
-}
-#Meals,#Seafood,#Biriyani,#Snacks,#Drinks,#Breakfast h3 {
-    color: #6B5E54;
-    margin: 30px 0 20px;
-    text-align: center;
-}
-
-.card {
-    border: none;
-    border-radius: 18px;
-    overflow: hidden;
-    background: rgba(214, 187, 134, 0.18); /* soft sand tint */
-    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-    transition: all 0.35s ease;
-}
-
-.card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 28px rgba(0,0,0,0.18);
-    background: rgba(214, 187, 134, 0.28); 
-}
-
-.card img {
-    border-bottom: 4px solid #D6BB86;
-    height: 240px;
-    object-fit: cover;
-}
-
-.card-title {
-    font-size: 22px;
-    color: #6B5E54;
-    font-weight: 600;
-    text-align: center;
-}
-
-.card-text {
-    font-size: 17px;
-    color: #4a3f38;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
 .footer{
     background-color: rgba(47, 38, 26, 0.9);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -311,8 +219,3 @@ body{
         box-shadow: none;
     }
 }
-
-
-
-
-

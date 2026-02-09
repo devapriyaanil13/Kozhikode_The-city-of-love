@@ -16,12 +16,13 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="Javascript/index.js"></script>
 </head>
+
 <body>
     <div id="container">
         <div class="container-fluid">
             <div class="header">
 
-                <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+                <nav class="navbar navbar-expand-lg ">
                     <div class="container-fluid">
 
                         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
@@ -108,7 +109,7 @@
                     <a href="Places.html" class="btn card-btn" data-nav="nav-place">Take me there</a>
                 </div>
             </div>
-            
+
             <div class="card col-md-3">
                 <img src="images/food.jpg" class="card-img-top mt-1" alt="...">
                 <div class="card-body">
@@ -136,51 +137,78 @@
                     <a href="Culture.html" class="btn card-btn" data-nav="nav-culture">Experience It</a>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <div class="container-fluid">
-        <section class="footer">
-            <footer class="text-center text-white " style="background-color:rgba(47, 38, 26, 0.8);">
-                <div class="container p-4 pb-0">
-                    <section class="">
-                        <p class="d-flex justify-content-center align-items-center">
-                            <span class="me-3">Lost your way</span>
-                            <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded">
-                                Ping us !!
-                            </button>
-                        </p>
-                    </section>
+        <footer class="footer">
+
+            <div class="container">
+                <div class="row align-items-center py-4">
+                    <div class="footer-cta">
+                        <p>Lost your way?</p>
+                        <a href="Contact.html"><button class="ping-btn">Ping us</button></a>
+                    </div>
+
+                    <div class="col-12 col-lg-3 text-center text-lg-start">
+                        <div class="footer-brand">
+                            <h3>Kozhikode</h3>
+                            <p>The city that stays</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 text-center">
+                        <ul class="footer-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Places.html">Places</a></li>
+                            <li><a href="Food.html">Food</a></li>
+                            <li><a href="Shopping.html">Shopping</a></li>
+                            <li><a href="Culture.html">Culture</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-12 col-lg-3 text-center text-lg-end footer-icons">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                    
                 </div>
+            </div>
 
-                <div class="mb-12">
+            <div class="footer-bottom">
+                <h6>
+                    A simple guide, for a city that feels like home
+                    <i class="fa-solid fa-heart"></i>
+                </h6>
+            </div>
 
-                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
-                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f "></i></a>
+        </footer>
 
-                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
-                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+    </div>
 
 
-                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
-                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+    </div>
 
+    </footer>
 
-                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-3" href="#!"
-                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-
-                </div>
-
-                <div class="text-center p-3" style="background-color: rgba(47, 38, 26, 0.9);">
-                    <h6>A simple guide, for a city that feels like home <i class="fa-solid fa-heart"></i>
-                    </h6>
-
-                </div>
-
-            </footer>
-        </section>
+    </section>
     </div>
     </div>
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navbar = document.querySelector('.navbar');
 
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 60) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
