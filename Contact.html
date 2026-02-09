@@ -33,6 +33,9 @@
                         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
+                                    <a class="nav-link" id="nav-place" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" id="nav-place" href="Places.html">Places</a>
                                 </li>
                                 <li class="nav-item">
@@ -44,9 +47,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" id="nav-culture" href="Culture.html">Culture</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="nav-contact" href="Contact.html">Contact</a>
-                                </li>
+                        
                             </ul>
                         </div>
 
@@ -62,32 +63,43 @@
             </div>
         </div>
     </div>
-    <section class="contact-section">
-    <div class="container contact-wrapper">
+    <div class="container">
+        <div class="where">
+            <section class="contact-section">
 
-    
-        <div class="contact-form">
-            <h2>Let’s Talk</h2>
-            <p>If you’re stuck, curious, or just need a little help, leave us a message.</p>
+                <h3 class="where_title">Where to Find Us</h3>
+                <div class="container contact-wrapper">
 
-            <form>
-                <input type="text" placeholder="Your name" required>
-                <input type="email" placeholder="Your email" required>
-                <textarea rows="4" placeholder="Your message"></textarea>
-                <button type="submit">Send message</button>
-            </form>
+
+                    <div class="contact-form">
+                        <h2>Let’s Talk</h2>
+                        <p>If you’re stuck, curious, or just need a little help, leave us a message.</p>
+
+                        <form>
+                            <input type="text" placeholder="Your name" required>
+                            <input type="email" placeholder="Your email" required>
+                            <textarea rows="4" placeholder="Your message"></textarea>
+                            <button type="submit">Send message</button>
+                        </form>
+                    </div>
+                    <div class="contact">
+                        <h4>Contact Details</h4>
+                        <p><i class="fa-solid fa-location-dot"></i> Kozhikode, Kerala</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fa-solid fa-envelope"></i> kozhikode@gmail.com</p>
+                        <div class="divider"></div>
+                        <div class="contact-map">
+                            <iframe src="https://www.google.com/maps?q=Kozhikode,Kerala&output=embed" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
         </div>
-
-        <div class="contact-map">
-            <iframe
-                src="https://www.google.com/maps?q=Kozhikode,Kerala&output=embed"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-
     </div>
-</section>
 
 
     <div class="container-fluid">
@@ -123,7 +135,7 @@
                         <a href=""><i class="fab fa-twitter"></i></a>
                         <a href=""><i class="fab fa-instagram"></i></a>
                     </div>
-                    
+
                 </div>
             </div>
 
@@ -146,7 +158,7 @@
     </section>
     </div>
     </div>
-<script>
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
             const navbar = document.querySelector('.navbar');
 
